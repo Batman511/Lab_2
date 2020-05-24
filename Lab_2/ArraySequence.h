@@ -200,5 +200,8 @@ int Test_Array_Sequence() {
 	};
 	//-842150451
 
+	delete[7] pr;
+	delete[3] priv;
+
 	return 0;
 }

@@ -173,6 +173,8 @@ int Test_List_Sequence() {
 		std::cout << "Test Concat: fail" << "\n";
 	};
 
+	delete[7] a;
+	delete[6] b;
 
 	return 0;
 }

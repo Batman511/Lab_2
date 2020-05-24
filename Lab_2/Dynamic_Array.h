@@ -153,5 +153,7 @@ int Test_Dynamic_Array() {
 	};
 	//-842150451
 
+	delete[5] pr;
+
 	return 0;
 }

@@ -289,6 +289,14 @@ int Test_MyClass() {
 		std::cout << "Test Search: fail" << "\n";
 	};
 
+	delete search1;
+	delete list1;
+	delete list2;
+	delete list3;
+	delete map1;
+	delete map2;
+	delete map3;
+
 	return 0;
 }
 
